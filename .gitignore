@@ -1,0 +1,37 @@
+**Core ignores**
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+**Build outputs**
+dist/
+build/
+.vite/
+
+**Logs & temp**
+*.log
+out.*
+err.*
+models.*
+lint-results*
+build_res.*
+
+**OS**
+.DS_Store
+Thumbs.db
+
+**Editor**
+.vscode/settings.json
+.idea/
+
+**Client specific**
+client/node_modules/
+client/dist/
+client/build/
+
+**Server specific**
+server/node_modules/
+server/dist/
